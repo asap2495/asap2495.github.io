@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(173,216,230);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700|Hind:400,700);
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Hind', sans-serif;*/
+
+nav {
+text-align: center;
+}
+
+nav li {
+display: inline;  
+margin: 20px; 
+padding: 3px 3px;
+background-color: white; 
+}
+
+nav a {
+color: black;
+}
+
+a:hover {
+color:crimson;
+}
+    
+section{
+border-bottom: 1px solid #666;
+}
+
+section:last-child{
+    border-bottom: none;
+}
+
+ul{
+list-style-type: square;
+}
+
+li{
+margin: 7px;
+}
+
+
+header {
+    text-align: center;
+    font-family: 'Hind', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%
+}
+
+#address {
+        text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%
+}
+
+#address p {
+    margin: 5px;
+}

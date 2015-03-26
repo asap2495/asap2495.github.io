@@ -1,0 +1,49 @@
+* {
+  color: black;
+  background: transparent;
+  font-size: 12pt;
+  font-family: garamond, serif;
+}
+
+@page {
+  margin: 0.5in;
+}
+
+nav {
+  display: none;
+}
+
+a {
+text-decoration: none;
+
+}
+
+a[href$=".html"] {
+    display: none;
+}
+
+a[href$=".html"]:after {
+    display: none;
+}
+
+a[href^="http://"],
+a[href^="https://"] {
+    display: inline;
+}
+
+a[href^="http://"]:after,
+a[href^="https://"] {
+    content: " ("attr(href) ") ";
+}
+
+header {
+    font-size: 36pt;
+}
+
+h2 {
+    font-size: 24pt;
+}
+
+.dates {
+    float: right;
+}
